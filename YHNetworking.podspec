@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YHNetworking"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "YHNetworking."
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "AFNetworking"
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "/Users/wangyinghui/Documents/百度云同步盘/学习/02-iOS学习/28-自有封装库/YHExtension/YHExtension.podspec" }
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "https://github.com/YHLibrary/YHPod.git" }
   s.dependency "YHExtension"
 
 end
