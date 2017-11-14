@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AFNetworking.h"
-#import "Singleton.h"
+#import <AFNetworking/AFNetworking.h>
+#import <YHExtension/Singleton.h>
 
 
 /**

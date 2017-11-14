@@ -8,7 +8,7 @@
 
 #import "DF_APIStore.h"
 
-#import "NSDictionary+YHUtil.h"
+#import <YHExtension/NSDictionary+YHUtil.h>
 
 #import "YHLogger.h"
 
