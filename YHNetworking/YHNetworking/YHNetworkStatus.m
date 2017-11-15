@@ -26,22 +26,22 @@
         switch (status) {
             case AFNetworkReachabilityStatusUnknown:
             {
-                MyLog(@"网络无法连接");
+                //NSLog(@"网络无法连接");
             }
                 break;
             case AFNetworkReachabilityStatusNotReachable:
             {
-                MyLog(@"网络无法连接");
+                //NSLog(@"网络无法连接");
             }
                 break;
             case AFNetworkReachabilityStatusReachableViaWWAN:
             {
-                MyLog(@"2G/3G/4G 连接");
+                //NSLog(@"2G/3G/4G 连接");
             }
                 break;
             case AFNetworkReachabilityStatusReachableViaWiFi:
             {
-                MyLog(@"WiFi 连接");
+                //NSLog(@"WiFi 连接");
             }
                 break;
                 
